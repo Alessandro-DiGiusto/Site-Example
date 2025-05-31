@@ -1,0 +1,45 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #f4f4f4;
+    --secondary-color: #0056b3;
+}
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: #333;
+    width: 100%;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+h1, h2 {
+    color: var(--secondary-color);
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+li {
+    margin-bottom: 10px;
+}
+strong {
+    font-weight: bold;
+}
